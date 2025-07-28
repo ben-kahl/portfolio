@@ -13,7 +13,7 @@
   min-height: 100svh;
   padding: 80px;
   gap: 64px;
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-lalezar);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,6 +54,42 @@
   padding: 2px 4px;
   border-radius: 4px;
   font-weight: 600;
+}
+
+.name h1 {}
+
+.backgroundCircle {
+  width: 1300px;
+  height: 1200px;
+  border-radius: 50%;
+  background-color: rgba(8, 7, 67, 0.97);
+  position: absolute;
+  right: -11.1%;
+  top: -20%;
+  overflow: hidden;
+}
+
+.foregroundCircle {
+  width: 1200px;
+  height: 1200px;
+  background-color: rgba(7, 43, 195, 0.7);
+  border-radius: 50%;
+  position: absolute;
+  right: -10%;
+  top: -20%;
+  overflow: hidden;
+}
+
+.projectList .links li {
+  list-style-type: none;
+}
+
+.projectList .links {
+  font-size: 75px;
+  font-weight: bolder;
+  position: absolute;
+  right: 30%;
+  top: 25%;
 }
 
 .ctas {
