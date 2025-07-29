@@ -26,12 +26,19 @@ export default function Nav() {
             <Link href='/contact'>Contact</Link>
           </li>
         </ul>
+        <div className={styles.hamburger} onClick={toggleHamburger}>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" /></svg>
+        </div>
       </div>
-      <div className={styles.hamburger}>
-        <div className={styles.hamburger1}></div>
-        <div className={styles.hamburger2}></div>
-        <div className={styles.hamburger3}></div>
-      </div>
+      <style jsx>{`
+        .navigation { 
+          width: 25%;
+          height: 100%;
+        }
+
+      `}</style>
     </div>
   );
 }
+
+

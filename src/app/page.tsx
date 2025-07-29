@@ -13,17 +13,16 @@ export default function Home() {
         <div className={styles.foregroundCircle}></div>
         <div className={styles.links}>
           <ul>
-            <li id="projects">
+            <li className={styles.projects}>
               <Link href="/projects">PROJECTS</Link>
             </li>
-            <li id="about">
+            <li className={styles.about}>
               <Link href='/about'>ABOUT</Link>
             </li>
-            <li id="contact">
+            <li className={styles.contact}>
               <Link href='/contact'>CONTACT</Link>
             </li>
           </ul>
-          <Selector />
         </div>
       </div>
       <div className={styles.home}>
