@@ -56,6 +56,7 @@
 }
 
 .projectList .links li {
+  position: relative;
   z-index: 10;
 }
 
@@ -76,14 +77,12 @@
 }
 
 .home {
-  font-size: 70px;
-  font-weight: bold;
-  position: absolute;
+  width: auto;
+  height: auto;
   margin: 0;
   padding: 0;
-  left: 35%;
-  bottom: 12%;
-  width: 400px;
-  height: 200px;
-  z-index: 5;
+  position: absolute;
+  left: 30%;
+  bottom: -10%;
+  z-index: -1;
 }

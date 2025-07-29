@@ -1,7 +1,1 @@
-.navigation {
-  display: $ {
-    hamburgerOpen ? 'inline': 'none'
-  }
-
-  ;
-}
+.navigation {}
