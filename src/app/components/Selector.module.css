@@ -1,7 +1,8 @@
 .selectorContainer {
   position: absolute;
+  bottom: 127px;
   width: 100%;
-  height: 100%;
+  height: 50%;
   transform: translate(0%, -120%);
   z-index: -1;
 }

@@ -19,21 +19,21 @@ export default function Home() {
           <div className={styles.links}>
             <ul>
               <li
-                className={`${styles.projects} ${styles.activeLink === 'projects' ? styles.activeLink : ''}`}
+                className={`${styles.projects} ${hoveredLink === 'projects' && styles.activeLink}`}
                 onMouseEnter={() => setHoveredLink('projects')}
               >
                 {hoveredLink === 'projects' && <Selector />}
                 <Link href="/projects">PROJECTS</Link>
               </li>
               <li
-                className={`${styles.about} ${styles.activeLink === 'about' ? styles.activeLink : ''}`}
+                className={`${styles.about} ${hoveredLink === 'about' && styles.activeLink}`}
                 onMouseEnter={() => setHoveredLink('about')}
               >
                 {hoveredLink === 'about' && <Selector />}
                 <Link href='/about'>ABOUT</Link>
               </li>
               <li
-                className={`${styles.contact} ${styles.activeLink === 'contact' ? styles.activeLink : ''}`}
+                className={`${styles.contact} ${hoveredLink === 'contact' && styles.activeLink}`}
                 onMouseEnter={() => setHoveredLink('contact')}
               >
                 {hoveredLink === 'contact' && <Selector />}

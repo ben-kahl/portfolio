@@ -1,0 +1,45 @@
+body {
+  font-family: var(--font-lalezar);
+  background-color: rgba(7, 43, 195, 0.7);
+}
+
+.contacts {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 70%;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  transform: rotate(-4deg);
+}
+
+.contacts a {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 30px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.emailIcon {
+  width: 72px;
+  height: 72px;
+  background-image: url('/emailIcon.png');
+  background-size: cover;
+}
+
+.githubIcon {
+  width: 72px;
+  height: 72px;
+  background-image: url('/github.png');
+  background-size: cover;
+}
+
+.linkedInIcon {
+  width: 72px;
+  height: 72px;
+  background-image: url('/linkedin.png');
+  background-size: cover;
+}

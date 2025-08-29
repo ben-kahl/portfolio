@@ -65,6 +65,7 @@
 .projects {
   transform: rotate(2deg);
   margin-bottom: 50px;
+  color: rgba(0, 232, 255, 1);
 }
 
 .about {
@@ -78,6 +79,9 @@
   color: rgba(112, 162, 255, 1);
 }
 
-.activeLink Link {
+.activeLink {
   color: black;
 }
+
+
+@media screen and (max-width: 600px) {}
